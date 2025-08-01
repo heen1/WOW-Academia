@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wow Fitness Academia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <i class="fa-solid fa-bars menu-mobile-icon" id="menu-toggle"></i>
+
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="Logo Wow Fitness">
+        </a>
+        <span class="header-texto">Wow Fitness | Academia</span>
+
+        <nav class="menu" id="mobile-menu">
+            <a href="#home">Home</a>
+            <a href="#quem-somos">Quem Somos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <div class="site-content-wrapper">
+        <main>
+            <section id="home">
+                <div class="banner-wrapper">
+                    <picture>
+                        <source srcset="img/homeimg-mobile.png" media="(max-width: 768px)">
+                        <img src="img/homeimg.png" alt="Banner Wow Fitness" class="banner-img">
+                    </picture>
+                </div>
+            </section>
+            <section id="aulas" class="aulas-section">
+                <div class="aulas-header">
+                    <h2>
+                        Aulas <span class="destaque-vermelho">Coletivas</span>
+                    </h2>
+                    <p>Conheça nossas modalidades em grupo para treinar com mais diversão e motivação!</p>
+                </div>
+                <div class="aulas-cards">
+                    <div class="aula-card">
+                        <div class="aula-img" style="background-image: url('img/wowdance.png');"></div>
+                        <div class="aula-title">WOW DANCE</div>
+                        <div class="aula-info-row">
+                            <div class="aula-info">
+                                <i class="fa-regular fa-clock"></i>
+                                <div>
+                                    <div class="aula-info-label">Duração</div>
+                                    <div class="aula-info-value">45/60 min</div>
+                                </div>
+                            </div>
+                            <div class="aula-info">
+                                <i class="fa-solid fa-bolt fa-lg" style="color: #2bff00;"></i>
+                                <div>
+                                    <div class="aula-info-label">Intensidade</div>
+                                    <div class="aula-info-value">Alta</div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="aula-divider">
+                        <div class="aula-desc">
+                            Para garantir seu aprendizado em cada movimento, as aulas de dança da WOW DANCE são conduzidas por instrutores 
+                            licenciados e credenciados pela FitDance.
+                        </div>
+                        <a class="aula-mais" href="#">Saiba Mais</a>
+                    </div>
+                    <div class="aula-card">
+                        <div class="aula-img" style="background-image: url('img/wowcross.png');"></div>
+                        <div class="aula-title">WOW CROSS</div>
+                        <div class="aula-info-row">
+                            <div class="aula-info">
+                                <i class="fa-regular fa-clock"></i>
+                                <div>
+                                    <div class="aula-info-label">Duração</div>
+                                    <div class="aula-info-value">30 min</div>
+
+                                </div>
+                            </div>
+                            <div class="aula-info">
+                                <i class="fa-solid fa-bolt fa-lg" style="color: #2bff00;"></i>
+                                <div>
+                                    <div class="aula-info-label">Intensidade</div>
+                                    <div class="aula-info-value">Alta</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr class="aula-divider">
+                        <div class="aula-desc">
+                           Transforme seu corpo em sessões de 30 minutos. O WOW CROSS é o nosso treino funcional coletivo de alta 
+                           intensidade, projetado para queimar calorias e aumentar sua resistência.
+                        </div>
+                        <a class="aula-mais" href="#">Saiba Mais</a>
+                    </div>
+                    <div class="aula-card">
+                        <div class="aula-img" style="background-image: url('img/wowcombat.png');"></div>
+                        <div class="aula-title">WOW COMBAT</div>
+                        <div class="aula-info-row">
+                            <div class="aula-info">
+                                <i class="fa-regular fa-clock"></i>
+                                <div>
+                                    <div class="aula-info-label">Duração</div>
+                                    <div class="aula-info-value">30/45 min</div>
+                                </div>
+                            </div>
+                            <div class="aula-info">
+                                <i class="fa-solid fa-bolt fa-lg" style="color: #2bff00;"></i>
+                                <div>
+                                    <div class="aula-info-label">Intensidade</div>
+                                    <div class="aula-info-value">Alta</div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="aula-divider">
+                        <div class="aula-desc">
+                            Inspirado em artes marciais como Karatê, Jiu-jítsu, Capoeira e Taekwondo, o WOW COMBAT 
+                            é um treino eletrizante que desafia e fortalece o corpo por inteiro.
+                        </div>
+                        <a class="aula-mais" href="#">Saiba Mais</a>
+                    </div>
+                </div>
+            </section>
+            <section id="planos" class="planos-section">
+                <div class="planos-header">
+                    <h2>
+                        Escolha o <span class="destaque-vermelho">plano ideal</span> para você
+                    </h2>
+                    <p>Treine do seu jeito, com benefícios exclusivos Wow Fitness.</p>
+                </div>
+                <div class="planos-cards">
+                    <div class="plano-card destaque">
+                        <div class="plano-icone destaque-icone"><i class="fa-solid fa-medal"
+                                style="color: #fbff00;"></i></div>
+                        <h3 class="plano-nome destaque-nome">Gold</h3>
+                        <div class="plano-preco">
+                            <span class="preco-grande">R$ 149,90</span>
+                            <span class="preco-pequeno">/mês</span>
+                        </div>
+                        <ul class="plano-beneficios">
+                            <li><span class="beneficio-icone">✔</span> Acesso ilimitado a todas as unidades</li>
+                            <li><span class="beneficio-icone">✔</span> Leve até 5 amigos para treinar</li>
+                            <li><span class="beneficio-icone">✔</span> Área de musculação e aeróbicos</li>
+                            <li><span class="beneficio-icone">✔</span> Wow Fitness App</li>
+                            <li><span class="beneficio-icone">✔</span> Cadeira de massagem</li>
+                        </ul>
+                        <button class="contratar-btn destaque-btn">Quero este plano</button>
+                    </div>
+                    <div class="plano-card bronze">
+                        <div class="plano-icone"> <i class="fa-solid fa-medal" style="color: #cd7f32;"></i> </div>
+                        <h3 class="plano-nome">Bronze</h3>
+                        <div class="plano-preco">
+                            <span class="preco-grande">R$ 99,90</span>
+                            <span class="preco-pequeno">/mês</span>
+                        </div>
+                        <ul class="plano-beneficios">
+                            <li><span class="beneficio-icone">✔</span> Treine na unidade escolhida</li>
+                            <li><span class="beneficio-icone">✔</span> Área de musculação e aeróbicos</li>
+                            <li><span class="beneficio-icone">✔</span> Wow Fitness App</li>
+                            <li class="desabilitado"><span class="beneficio-icone">✖</span> Cadeira de massagem</li>
+                            <li class="desabilitado"><span class="beneficio-icone">✖</span> Leve até 5 amigos para
+                                treinar</li>
+                        </ul>
+                        <button class="contratar-btn">Quero este plano</button>
+                    </div>
+                    <div class="plano-card silver">
+                        <div class="plano-icone"><i class="fa-solid fa-medal" style="color: #c0c0c0;"></i></div>
+                        <h3 class="plano-nome">Silver</h3>
+                        <div class="plano-preco">
+                            <span class="preco-grande">R$ 119,90</span>
+                            <span class="preco-pequeno">/mês</span>
+                        </div>
+                        <ul class="plano-beneficios">
+                            <li><span class="beneficio-icone">✔</span> Acesso ilimitado a todas as unidades</li>
+                            <li><span class="beneficio-icone">✔</span> Área de musculação e aeróbicos</li>
+                            <li><span class="beneficio-icone">✔</span> Wow Fitness App</li>
+                            <li><span class="beneficio-icone">✔</span> Cadeira de massagem</li>
+                            <li class="desabilitado"><span class="beneficio-icone">✖</span> Leve até 5 amigos para
+                                treinar</li>
+                        </ul>
+                        <button class="contratar-btn">Quero este plano</button>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+    </div>
+
+    <section id="quem-somos">
+        <h2>Quem Somos</h2>
+        <p>
+            Na <b>Wow Fitness | Academia</b>, acreditamos que o bem-estar é o ponto de partida para uma vida mais
+            saudável, equilibrada e feliz. Somos mais do que uma academia — somos um espaço de transformação física e
+            mental, onde cada aluno é incentivado a superar seus próprios limites com suporte, respeito e motivação.
+        </p>
+        <p>
+            Nosso compromisso vai além do treino: oferecemos uma experiência completa, com estrutura moderna,
+            equipamentos de ponta, profissionais qualificados e uma atmosfera acolhedora, preparada para todos os níveis
+            de condicionamento físico. Aqui, cada conquista é celebrada e cada esforço valorizado.
+        </p>
+        <p>
+            Seja para emagrecer, ganhar massa muscular, melhorar a saúde ou simplesmente viver com mais disposição, a
+            <b>Wow Fitness</b> está ao seu lado em cada etapa da jornada. Juntos, vamos mais longe!
+        </p>
+    </section>
+
+    <footer id="contato">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Contato</h3>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> Telefone: (11) 94002-8922</li>
+                    <li><i class="fa-solid fa-envelope"></i> Email: contato@wowfitness.com</li>
+                    <li> <i class="fa-solid fa-house"></i> Endereço: Rua Phenac, 72 - São Paulo, SP</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Redes Sociais</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-tiktok"></i> Tiktok</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
